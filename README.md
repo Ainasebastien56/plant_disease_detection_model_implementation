@@ -4,7 +4,7 @@ A deep learning project for automated detection of plant diseases in crops commo
 
 ## 📋 Overview
 
-This notebook trains and compares five image classification models on the [PlantVillage dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset), targeting four crops relevant to Mauritian agriculture. The goal is to identify the best-performing architecture for plant disease detection.
+This notebook trains and compares five image classification models on the [PlantVillage dataset](https://www.kaggle.com/datasets/mohitsingh1804/plantvillage), targeting four crops relevant to Mauritian agriculture. The goal is to identify the best-performing architecture for plant disease detection.
 
 **Target crops:** Corn · Potato · Pepper · Tomato
 
@@ -49,7 +49,7 @@ pip install tensorflow scikit-learn matplotlib seaborn numpy
 
 ### Dataset
 
-Download the [PlantVillage dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset) and place it under `../PlantVillage/` with `train/` and `val/` subdirectories organised by class. The notebook will automatically split 50% of the validation set into a dedicated `test/` folder on first run.
+Download the [PlantVillage dataset](https://www.kaggle.com/datasets/mohitsingh1804/plantvillage) and place it under `../PlantVillage/` with `train/` and `val/` subdirectories organised by class. The notebook will automatically split 50% of the validation set into a dedicated `test/` folder on first run.
 
 ## 🔧 Configuration
 
